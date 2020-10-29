@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sasha's contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+     h2{
+       background: #CCEBC0;
+    border-radius: 50px;
+    padding: 2px;
+    text-align: center;
+    }
+
+   input:invalid {
+       border: 2px solid red;
+   }
+   input:valid {
+       border: 2px solid #CCEBC0;
+   }
+   :required{
+      border: 2px solid #CCEBC0;
+   }
+   :default{
+     background-color: #CCEBC0;
+   }
+
+
+</style>
+  </head>
+    <body>
+      <div class="content">
+
+
+    <h2>Мої контакти та соц. мережі</h2>
+      <table border="1">
+            <tr>
+                <td>Домашній телефон:</td> <td>6-31-64</td>
+            </tr>
+            <tr>
+                <td>Мобільний телефон:</td> <td>098 639 40 30</td>
+            </tr>
+            <tr>
+                <td>Робочий телефон:</td> <td>098 654 54 12</td>
+            </tr>
+            <tr>
+                <td>G-mail:</td> <td>Polishchuk.Oleksandr.An@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Instagram:</td> <td>@Silent.sanya</td>
+            </tr>
+            <tr>
+              <td>Telegram:</td> <td>@Silentsanya</td>
+            </tr>
+        </table>
+    </p>
+    <h2>Напишіть мені!</h2>
+    <form method="post" action="mailto:Polishchuk.Oleksandr.An@gmail.com" enctype="text/plain">
+   <table>
+
+    <tr>
+     <td> <label for="">Ім'я:</label> </td>
+     <td> <input type="text" name="Name"> </td>
+    </tr>
+
+    <tr>
+     <td><label for="">E-mail</label></td>
+     <td><input type="email" name="Email"></td>
+    </tr>
+
+    <tr>
+     <td valign=top><label for="">Повідомлення</label></td>
+     <td><textarea name="Massage" cols="35" rows="10"></textarea> <br>
+     <input type="submit" value="Відправити" required></td>
+    </tr>
+
+   </table>
+     </div>
+  </body>
+</html>

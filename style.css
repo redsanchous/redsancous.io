@@ -1,0 +1,62 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #64C4AF;
+}
+
+.content {
+ max-width: 500px;
+ margin: auto;
+}
+.content h2{
+   background: #CCEBC0;
+   border-radius: 50px;
+   padding: 2px;
+   text-align: center;
+   font-family: cursive;
+}
+div{
+  padding: 7px;
+}
+
+
+.head div{
+    width: 50%;
+}
+
+.box7{
+  text-align: right;
+}
+
+.head{
+  display: flex;
+}
+
+.center div{
+    flex: 1;
+}
+
+.center{
+  display: flex;
+  background-color: #CCEBC0;
+}
+
+.footer div{
+  width: 50%;
+
+}
+
+.footer{
+  display: flex;
+}
+
+.box5{
+  text-align: center;
+}
+
+.box5 table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+}
